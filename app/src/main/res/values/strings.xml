@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">小浩计步</string>
+    <string name="stepCount_str">null</string>
+    <string name="todaystepCount_str">今日步数</string>
+    <string name="synccountBtn_str">同步</string>
+    <string name="rankBtn_str">排行榜</string>
+</resources>
