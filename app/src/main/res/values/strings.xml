@@ -4,4 +4,5 @@
     <string name="todaystepCount_str">今日步数</string>
     <string name="synccountBtn_str">同步</string>
     <string name="rankBtn_str">排行榜</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
