@@ -8,6 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.daizihao.stepcounter.R;
+import com.xuexiang.xui.XUI;
 
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobUser;
@@ -18,8 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        XUI.initTheme(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        ActionBar actionBar = getActionBar();
+//        actionBar.show();
         Bmob.initialize(this, "914fd45d728599bbc18e21ce50b1cea2");
         if (BmobUser.isLogin()) {
             Intent intent = new Intent(MainActivity.this, CounterActivity.class);

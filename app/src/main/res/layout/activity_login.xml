@@ -4,36 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
     tools:context=".Activity.LoginActivity">
 
     <EditText
         android:id="@+id/username_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        style="@style/EditText.Normal"
+        android:layout_width="190dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="164dp"
         android:ems="10"
         android:hint="账号"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/login_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        style="@style/Button.Primary"
+        android:layout_width="115dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="60dp"
         android:text="登录"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_text" />
 
     <EditText
         android:id="@+id/password_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        style="@style/EditText.Normal"
+        android:layout_width="191dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="56dp"
         android:ems="10"
         android:hint="密码"
         android:inputType="textPassword"

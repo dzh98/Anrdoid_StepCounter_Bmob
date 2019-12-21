@@ -11,6 +11,7 @@ import com.daizihao.stepcounter.R;
 import cn.bmob.v3.BmobUser;
 
 public class BaseMenuActivity extends AppCompatActivity {
+
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
         return super.onCreateOptionsMenu(menu);

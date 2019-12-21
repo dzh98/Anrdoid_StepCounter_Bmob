@@ -4,27 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
     tools:context=".Activity.MainActivity">
 
-    <Button
-        android:id="@+id/login_button"
-        android:layout_width="87dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="132dp"
-        android:layout_marginEnd="26dp"
-        android:text="登录"
-        app:layout_constraintEnd_toStartOf="@+id/register_button"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/register_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Button.Radius"
+        android:layout_width="117dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="382dp"
         android:text="注册"
-        app:layout_constraintBaseline_toBaselineOf="@+id/login_button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/login_button" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button" />
+
+    <Button
+        android:id="@+id/login_button"
+        style="@style/Button.Radius"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="43dp"
+        android:text="登录"
+        app:layout_constraintBottom_toTopOf="@+id/register_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

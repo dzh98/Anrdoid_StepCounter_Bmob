@@ -10,7 +10,7 @@
 
     <Button
         android:id="@+id/sync_button"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Button.Primary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -57,6 +57,7 @@
 
     <TextView
         android:id="@+id/textView"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
@@ -68,7 +69,7 @@
 
     <Button
         android:id="@+id/rank_button"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Button.Primary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -76,6 +77,8 @@
         android:text="@string/rankBtn_str"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/circularProgressView" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
